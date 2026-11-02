@@ -4,7 +4,7 @@
 
 **Genetic Engine for Neural Evolution & Simulated Systems**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Render-d4b896?style=for-the-badge&logo=render&logoColor=white)](https://genesis-chbz.onrender.com/)
+[![Live Demo](https://img.shields.io/badge/Demo-Suspended-8b949e?style=for-the-badge&logo=render&logoColor=white)](https://genesis-chbz.onrender.com/)
 [![C++](https://img.shields.io/badge/C%2B%2B17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![WebSockets](https://img.shields.io/badge/Live_Telemetry-WebSockets-010101?style=for-the-badge&logo=socket.io&logoColor=white)](#)
@@ -18,8 +18,11 @@
 
 </div>
 
-> 🔒 **Proprietary Engine Notice:**  
-> This repository serves strictly as a public architectural showcase. To protect the intellectual property and prevent automated LLM replication, explicit C++ source code, internal WebSocket serialization schemas, and structural build files have been abstracted. **The actual engine source code is private.** You can watch the neural networks evolve in real-time via the [Live Demo](https://genesis-chbz.onrender.com/).
+> [!NOTE]
+> The live demo is currently suspended. Render's free tier provides 720 instance hours per month, and that allowance has been used up, so the service stays offline until it resets.
+
+> **Proprietary Engine Notice:**  
+> This repository serves strictly as a public architectural showcase. To protect the intellectual property and prevent automated LLM replication, explicit C++ source code, internal WebSocket serialization schemas, and structural build files have been abstracted. **The actual engine source code is private.** When the [Live Demo](https://genesis-chbz.onrender.com/) is online, you can watch the neural networks evolve in real-time.
 
 ---
 
@@ -65,7 +68,7 @@ Because neural topologies are dynamically generated, GENESIS utilizes a propriet
 **Binary Serialization (`.nue` files):** 
 The system supports hot-swapping brains. Users can serialize the current champion's topology into a highly compressed, encrypted `.nue` (Neural Evolution Encrypted) binary file, and inject it back into the engine later to resume evolution.
 
-> 📁 **Example File Included:** This repository includes a sample `.nue` file. You can download this file directly from this repo and upload it into the [Live Demo](https://genesis-chbz.onrender.com/) using the "Load Genome" button to watch a pre-trained brain navigate the track instantly!
+> **Example File Included:** This repository includes a sample `.nue` file. Once the [Live Demo](https://genesis-chbz.onrender.com/) is back online, you can download this file directly from this repo and upload it using the "Load Genome" button to watch a pre-trained brain navigate the track instantly.
 
 ---
 
